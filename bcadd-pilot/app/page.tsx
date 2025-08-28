@@ -5,6 +5,7 @@ export default function Home() {
     <div className="bg-[#131313]">
       <main>
         <h1 className="text-center text-white">Bcadd Pilot</h1>
+        <button>Download No Storage</button>
       </main>
     </div>
   );
