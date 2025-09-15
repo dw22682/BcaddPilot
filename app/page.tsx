@@ -16,9 +16,11 @@ export default function Home() {
               Download No Storage
             </button>
           </Link>
-          <button className="py-3 px-5 text-red-500 border-white border">
-            N/A
-          </button>
+          <Link href="/bcaddPilotTest-0.3.0.exe" download="bcadd-pilot.exe">
+            <button className="py-3 px-5 text-amber-50 border-white border hover:text-blue-400">
+              Download Latest Version
+            </button>
+          </Link>
         </div>
         <div>
           <p className="text-white px-4 py-5">
